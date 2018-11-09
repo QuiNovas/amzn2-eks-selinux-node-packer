@@ -1,0 +1,4 @@
+{
+  "ami_name": "amzn2-eks-selinux-node",
+  "source_ami": "ami-0a0b913ef3249b655"
+}
