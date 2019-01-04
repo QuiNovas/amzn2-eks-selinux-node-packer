@@ -9,6 +9,7 @@ require {
         class file open;
 				class file lock;
 				class process2 nnp_transition;
+        class sock_file create;
 }
 
 #============= iptables_t ==============
@@ -18,3 +19,6 @@ allow iptables_t var_run_t:file lock;
 
 #============= init_t ==============
 allow init_t irqbalance_t:process2 nnp_transition;
+
+#============= irqbalance_t ==============
+allow irqbalance_t var_run_t:sock_file create;
