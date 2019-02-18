@@ -50,6 +50,7 @@
         "scripts/dos2unix.sh",
         "scripts/root.sh",
         "scripts/selinux.sh",
+        "scripts/sshd.sh",
         "scripts/cleanup.sh"
       ],
       "type": "shell"
