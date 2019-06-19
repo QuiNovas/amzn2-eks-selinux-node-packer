@@ -29,7 +29,6 @@
       "tags": {
         "SourceAMI": "{{user `source_ami`}}"
       },
-      "temporary_security_group_source_cidr": "{{user `local_ip`}}/32",
       "type": "amazon-ebs"
     }
   ],
