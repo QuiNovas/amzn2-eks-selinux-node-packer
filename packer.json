@@ -2,11 +2,13 @@
   "variables": {
     "ami_name": "",
     "local_ip": "",
-    "eks_version": ""
+    "eks_version": "",
+    "aws_access_key": "",
+    "aws_secret_key": ""
   },
   "builders": [
     {
-      "access_key": "",
+      "access_key": "{{user `aws_access_key`}}",
       "ami_groups": [
         "all"
       ],
@@ -16,7 +18,7 @@
       ],
       "instance_type": "c4.xlarge",
       "region": "us-east-1",
-      "secret_key": "",
+      "secret_key": "{{user `aws_secret_key`}}",
       "snapshot_groups": [
         "all"
       ],
