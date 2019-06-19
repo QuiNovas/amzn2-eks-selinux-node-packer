@@ -7,7 +7,7 @@ jobs:
       - checkout
       - run:
           name: Validate
-          command: packer validate --var-file=vars.json packer.json
+          command: packer validate packer.json
   build-ami:
     docker:
       - image: hashicorp/packer:1.4.1
