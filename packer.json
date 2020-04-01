@@ -46,6 +46,7 @@
     },
     {
       "scripts": [
+        "scripts/pip.sh",
         "scripts/yum.sh",
         "scripts/postfix.sh",
         "scripts/rpcbind.sh",
