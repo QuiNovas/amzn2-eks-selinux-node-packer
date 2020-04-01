@@ -1,4 +1,4 @@
 {
   "ami_name": "amzn2-eks-selinux-node",
-  "eks_version": "1.11"
+  "eks_version": "1.15"
 }
